@@ -526,6 +526,7 @@ h3 {
   color: #04D2C8;
   border: 1px solid #04D2C8;
   color: #04D2C8 !important;
+  background: white;
 }
 
 /* line 130, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
@@ -578,6 +579,15 @@ h3 {
   color: #FDAE5C;
   border: 1px solid #FDAE5C;
   color: #FDAE5C !important;
+}
+/*Instructors btn*/
+
+.instructorbtn {
+  margin-left:420px ;
+}
+.instructorbtn span{
+  font-weight: bold;
+  font-size: 26px;
 }
 
 /* line 166, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
@@ -888,6 +898,10 @@ h3 {
     text-align: left;
   }
 }
+/*logo image hover*/
+.logo-img h4:hover{
+  font-size: 20px;
+}
 
 /* line 44, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area .main-header-area .book_room {
@@ -922,6 +936,11 @@ h3 {
 /* line 57, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area .main-header-area .book_room .socail_links ul li a:hover {
   color: #fff;
+}
+
+/*social links hover*/
+.socail_links i:hover{
+  font-size: 20px;
 }
 
 /* line 64, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
@@ -1177,7 +1196,7 @@ h3 {
 /* line 227, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area .log_chat_area .login {
   font-size: 16px;
-  margin-right: 50px;
+  margin-right: 40px;
   text-transform: capitalize;
   color: #fff;
 }
@@ -1199,7 +1218,6 @@ h3 {
 .header-area .log_chat_area .login span {
   font-size: 16px;
 }
-
 /* line 244, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area .log_chat_area .live_chat_btn a {
   color: #fff;
@@ -1215,16 +1233,36 @@ h3 {
 
 @media (min-width: 1200px) and (max-width: 1500px) {
   /* line 244, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
-  .header-area .log_chat_area .live_chat_btn a {
+  .header-area .log_chat_area .form-inline .live_chat_btn a {
     font-size: 13px;
     padding: 12px 25px;
   }
 }
 
 /* line 254, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
-.header-area .log_chat_area .live_chat_btn a i {
+.header-area .log_chat_area .form-inline .live_chat_btn a i {
   padding-right: 7px;
 }
+/*Search bar - form inline*/
+.form-inline{display:-ms-flexbox;display:flex;-ms-flex-flow:row wrap;flex-flow:row wrap;-ms-flex-align:center;align-items:center}.form-inline .form-check{width:100%}@media (min-width:576px){.form-inline label{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;margin-bottom:0}.form-inline .form-group{display:-ms-flexbox;display:flex;-ms-flex:0 0 auto;flex:0 0 auto;-ms-flex-flow:row wrap;flex-flow:row wrap;-ms-flex-align:center;align-items:center;margin-bottom:0}.form-inline .form-control{display:inline-block;width:auto;vertical-align:middle}.form-inline .form-control-plaintext{display:inline-block}.form-inline .custom-select,.form-inline .input-group{width:auto}.form-inline .form-check{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;width:auto;padding-left:0}.form-inline .form-check-input{position:relative;-ms-flex-negative:0;flex-shrink:0;margin-top:0;margin-right:.25rem;margin-left:0}.form-inline .custom-control{-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center}.form-inline .custom-control-label{margin-bottom:0}}
+.btn{display:inline-block;font-weight:400;color:#212529;text-align:center;vertical-align:middle;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-color:transparent;border:1px solid transparent;padding:.375rem .75rem;font-size:1rem;line-height:1.5;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}@media (prefers-reduced-motion:reduce){.btn{transition:none}}.btn:hover{color:#212529;text-decoration:none}.btn.focus,.btn:focus{outline:0;box-shadow:0 0 0 .2rem rgba(0,123,255,.25)}.btn.disabled,.btn:disabled{opacity:.65}.btn:not(:disabled):not(.disabled){cursor:pointer}a.btn.disabled,fieldset:disabled a.btn{pointer-events:none}.btn-secondary{color:#fff;background-color:#6c757d;border-color:#6c757d}.btn-secondary:hover{color:#fff;background-color:#5a6268;border-color:#545b62}.btn-secondary.focus,.btn-secondary:focus{color:#fff;background-color:#5a6268;border-color:#545b62;box-shadow:0 0 0 .2rem rgba(130,138,145,.5)}.btn-secondary.disabled,.btn-secondary:disabled{color:#fff;background-color:#6c757d;border-color:#6c757d}.btn-secondary:not(:disabled):not(.disabled).active,.btn-secondary:not(:disabled):not(.disabled):active,.show>
+/*Search bar - form-control*/
+.form-control{transition:none}
+.form-control::-ms-expand{background-color:transparent;border:0}
+.form-control:-moz-focusring{color:transparent;text-shadow:0 0 0 #495057}
+.form-control:focus{color:#495057;background-color:#fff;border-color:#80bdff;outline:0;box-shadow:0 0 0 .2rem rgba(0,123,255,.25)}
+.form-control::-webkit-input-placeholder{color:#6c757d;opacity:1}
+.form-control::-moz-placeholder{color:#6c757d;opacity:1}
+.form-control:-ms-input-placeholder{color:#6c757d;opacity:1}
+.form-control::-ms-input-placeholder{color:#6c757d;opacity:1}
+.form-control::placeholder{color:#6c757d;opacity:1}
+.form-control:disabled,.form-control[readonly]{background-color:#e9ecef;opacity:1}input[type=date]
+.form-control,input[type=datetime-local]
+.form-control,input[type=month]
+.form-control,input[type=time]
+.form-control{-webkit-appearance:none;-moz-appearance:none;appearance:none}select.form-control:focus::-ms-value{color:#495057;background-color:#fff}
+.form-control-file,.form-control-range{display:block;width:100%}
+
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_slider.scss */
 .slider_bg_1 {
@@ -1634,6 +1672,16 @@ h3 {
   top: 0;
 }
 
+/*instructors section*/
+.instructors h3{
+  font-size:40px;
+  text-align: center;
+  padding-bottom: 40px;
+  text-decoration: none;
+  text-shadow:2px 2px aqua;
+}
+
+
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_footer.scss */
 .footer_bg_1 {
   background-image: url(../img/banner/footer_bg.png);
@@ -1714,7 +1762,7 @@ h3 {
 
 /* line 46, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text {
-  font-size: 16px;
+  font-size: 28px;
   color: #B2B2B2;
   margin-bottom: 23px;
   font-weight: 400;
@@ -1731,6 +1779,7 @@ h3 {
 .footer .footer_top .footer_widget p.footer_text a.domain:hover {
   color: #FDAE5C;
   border-bottom: 1px solid #FDAE5C;
+  font-size: 24px;
 }
 
 /* line 61, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_footer.scss */
@@ -1760,6 +1809,7 @@ h3 {
 /* line 82, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget ul li a:hover {
   color: #FDAE5C;
+  font-size: 22px;
 }
 
 /* line 88, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_footer.scss */
@@ -1799,11 +1849,23 @@ h3 {
   padding: 0 22px;
   cursor: pointer;
 }
+/*sign up button*/
+.newsletter_form button:hover{
+  font-size: 18px;
+}
 
 /* line 118, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget .newsletter_text {
   font-size: 16px;
   color: #BABABA;
+}
+/*updated footer-widget*/
+.footer_widget h3,p{
+  font-size: 21px;
+
+}
+.footer_widget a:hover{
+  font-size: 23px;
 }
 
 /* line 124, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_footer.scss */
@@ -1824,7 +1886,55 @@ h3 {
   margin-bottom: 0;
   font-weight: 400;
 }
+/*_____________Edited part in footer___________________*/
+@import url(//fonts.googleapis.com/css?family=Oregano|Merienda);
 
+.mwl {
+font-family: 'Merienda', cursive;
+}
+.ks {
+font-family: 'Oregano', cursive;
+font-size:18px;
+}
+.ks a{
+text-transform: none !important;
+}
+.ks a:hover{
+  text-shadow: 1px 1px white;
+  font-size: 18px;
+}
+.ke{
+  color:#FDAE5C;
+}
+
+
+/*Scroll button*/
+
+.back-to-top {
+  float: right;
+}
+
+.back-to-top i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  background: #6f42c1;
+  color: #fff;
+  transition: all 0.4s;
+}
+
+.back-to-top i:hover {
+  background: #fff ;
+  color: #fff;
+}
+
+
+
+/*---------------------------------------------------*/
 @media (max-width: 767px) {
   /* line 130, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_footer.scss */
   .footer .copy-right_text .copy_right {

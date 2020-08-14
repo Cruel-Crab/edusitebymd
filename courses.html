@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Kohli Education</title>
+    <title>Kohli Education - Courses</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
@@ -36,7 +37,9 @@
                     <div class="row align-items-center no-gutters">
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo-img">
+                                <a href="index.html">
                                 <h4 style="color: white"><img src="img/Title_image.png" alt="" style="height: 50px"; width="50px">&nbsp;&nbsp;Kohli Education</h4>
+                                </a>
                             </div>
                         </div>
                         <div class="col-xl-7 col-lg-7">
@@ -45,12 +48,6 @@
                                     <ul id="navigation">
                                         <li><a  href="index.html">home</a></li>
                                         <li><a class="active" href="Courses.html">Courses</a></li>
-                                        <li><a href="#">pages <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu">
-                                                <li><a href="course_details.html">course details</a></li>
-                                                
-                                            </ul>
-                                        </li>
                                         <li><a href="about.html">About</a></li>
                                         <li><a href="contact.html">Contact</a></li>
                                     </ul>
@@ -59,16 +56,14 @@
                         </div>
                         <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                             <div class="log_chat_area d-flex align-items-center">
-                                <a href="#test-form" class="login popup-with-form">
+                                <!--<a href="#test-form" class="login popup-with-form">
                                     <i class="flaticon-user"></i>
-                                    <span>log in</span>
-                                </a>
-                                <div class="live_chat_btn">
-                                    <a class="boxed_btn_orange" href="#">
-                                        <i class="fa fa-phone"></i>
-                                        <span>+91-6280848783</span>
-                                    </a>
-                                </div>
+                                    <span>Log in</span>
+                                </a>-->
+                                <form class="form-inline my-2 my-lg-0">
+                                    <input class="form-control mr-sm-2" type="text" placeholder="Enter name of course" aria-label="Search">
+                                    <button class="btn btn-secondary my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+                                </form>
                             </div>
                         </div>
                         <div class="col-12">
@@ -86,10 +81,11 @@
         </div>
         <!-- bradcam_area_end -->
 
+
     <!-- popular_courses_start -->
-    <div class="popular_courses plus_padding">
+    <div class="popular_courses">
         <div class="container">
-            <div class="row">
+            <div class="row" id="PopularCourses">
                 <div class="col-xl-12">
                     <div class="section_title text-center mb-100">
                         <h3>Popular Courses</h3>
@@ -159,7 +155,7 @@
                                             </div>
                                             <div class="courses_info">
                                                 <span>Photoshop</span>
-                                                <h3><a href="#">Mobile App design step by step <br>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
                                                         from beginner</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -185,7 +181,7 @@
                                             </div>
                                             <div class="courses_info">
                                                 <span>Adobe XD</span>
-                                                <h3><a href="#">UI/UX design with Adobe XD with Anderson</a></h3>
+                                                <h3><a href="course_details.html">UI/UX design with Adobe XD with Anderson</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
                                                         <i class="flaticon-mark-as-favorite-star"></i>
@@ -210,7 +206,7 @@
                                             </div>
                                             <div class="courses_info">
                                                 <span>Wordpress</span>
-                                                <h3><a href="#">Wordpress theme development <br>
+                                                <h3><a href="course_details.html">Wordpress theme development <br>
                                                         from scratch</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -235,8 +231,8 @@
                                                 </a>
                                             </div>
                                             <div class="courses_info">
-                                                <span>Photoshop</span>
-                                                <h3><a href="#">Mobile App design step by step <br>
+                                                <span>App Development</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
                                                         from beginner</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -259,8 +255,8 @@
                                                 <img src="img/courses/5.png" alt="">
                                             </div>
                                             <div class="courses_info">
-                                                <span>UI/UX</span>
-                                                <h3><a href="#">How to complete user research <br>
+                                                <span>HR</span>
+                                                <h3><a href="course_details.html">How to complete user research <br>
                                                         and make work flow</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -285,8 +281,8 @@
                                                 </a>
                                             </div>
                                             <div class="courses_info">
-                                                <span>Wordpress</span>
-                                                <h3><a href="#">Commitment to dedicated <br>
+                                                <span>Soft Skills</span>
+                                                <h3><a href="course_details.html">Commitment to dedicated <br>
                                                         Support</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -305,7 +301,7 @@
                                     </div>
                                     <div class="col-xl-12">
                                         <div class="more_courses text-center">
-                                            <a href="#" class="boxed_btn_rev">More Courses</a>
+                                            <a href="Courses.html" class="boxed_btn_rev">More Courses</a>
                                         </div>
                                     </div>
                                 </div>
@@ -320,8 +316,8 @@
                                                 </a>
                                             </div>
                                             <div class="courses_info">
-                                                <span>Photoshop</span>
-                                                <h3><a href="#">Mobile App design step by step <br>
+                                                <span>App Development</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
                                                         from beginner</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -347,7 +343,7 @@
                                             </div>
                                             <div class="courses_info">
                                                 <span>Adobe XD</span>
-                                                <h3><a href="#">UI/UX design with Adobe XD with Anderson</a></h3>
+                                                <h3><a href="course_details.html">UI/UX design with Adobe XD with Anderson</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
                                                         <i class="flaticon-mark-as-favorite-star"></i>
@@ -372,7 +368,7 @@
                                             </div>
                                             <div class="courses_info">
                                                 <span>Wordpress</span>
-                                                <h3><a href="#">Wordpress theme development <br>
+                                                <h3><a href="course_details.html">Wordpress theme development <br>
                                                         from scratch</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -398,7 +394,7 @@
                                             </div>
                                             <div class="courses_info">
                                                 <span>Photoshop</span>
-                                                <h3><a href="#">Mobile App design step by step <br>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
                                                         from beginner</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -421,8 +417,8 @@
                                                 <img src="img/courses/5.png" alt="">
                                             </div>
                                             <div class="courses_info">
-                                                <span>UI/UX</span>
-                                                <h3><a href="#">How to complete user research <br>
+                                                <span>HR</span>
+                                                <h3><a href="course_details.html">How to complete user research <br>
                                                         and make work flow</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -447,8 +443,8 @@
                                                 </a>
                                             </div>
                                             <div class="courses_info">
-                                                <span>Wordpress</span>
-                                                <h3><a href="#">Commitment to dedicated <br>
+                                                <span>Soft Skills</span>
+                                                <h3><a href="course_details.html">Commitment to dedicated <br>
                                                         Support</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -467,7 +463,7 @@
                                     </div>
                                     <div class="col-xl-12">
                                         <div class="more_courses text-center">
-                                            <a href="#" class="boxed_btn_rev">More Courses</a>
+                                            <a href="Courses.html" class="boxed_btn_rev">More Courses</a>
                                         </div>
                                     </div>
                                 </div>
@@ -482,8 +478,8 @@
                                                 </a>
                                             </div>
                                             <div class="courses_info">
-                                                <span>Photoshop</span>
-                                                <h3><a href="#">Mobile App design step by step <br>
+                                                <span>App Development/span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
                                                         from beginner</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -509,7 +505,7 @@
                                             </div>
                                             <div class="courses_info">
                                                 <span>Adobe XD</span>
-                                                <h3><a href="#">UI/UX design with Adobe XD with Anderson</a></h3>
+                                                <h3><a href="course_details.html">UI/UX design with Adobe XD with Anderson</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
                                                         <i class="flaticon-mark-as-favorite-star"></i>
@@ -534,7 +530,7 @@
                                             </div>
                                             <div class="courses_info">
                                                 <span>Wordpress</span>
-                                                <h3><a href="#">Wordpress theme development <br>
+                                                <h3><a href="course_details.html">Wordpress theme development <br>
                                                         from scratch</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -560,7 +556,7 @@
                                             </div>
                                             <div class="courses_info">
                                                 <span>Photoshop</span>
-                                                <h3><a href="#">Mobile App design step by step <br>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
                                                         from beginner</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -583,8 +579,8 @@
                                                 <img src="img/courses/5.png" alt="">
                                             </div>
                                             <div class="courses_info">
-                                                <span>UI/UX</span>
-                                                <h3><a href="#">How to complete user research <br>
+                                                <span>HR</span>
+                                                <h3><a href="course_details.html">How to complete user research <br>
                                                         and make work flow</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -609,8 +605,8 @@
                                                 </a>
                                             </div>
                                             <div class="courses_info">
-                                                <span>Wordpress</span>
-                                                <h3><a href="#">Commitment to dedicated <br>
+                                                <span>Soft Skills</span>
+                                                <h3><a href="course_details.html">Commitment to dedicated <br>
                                                         Support</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -629,7 +625,7 @@
                                     </div>
                                     <div class="col-xl-12">
                                         <div class="more_courses text-center">
-                                            <a href="#" class="boxed_btn_rev">More Courses</a>
+                                            <a href="courses.html" class="boxed_btn_rev">More Courses</a>
                                         </div>
                                     </div>
                                 </div>
@@ -644,8 +640,8 @@
                                                 </a>
                                             </div>
                                             <div class="courses_info">
-                                                <span>Photoshop</span>
-                                                <h3><a href="#">Mobile App design step by step <br>
+                                                <span>App Development</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
                                                         from beginner</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -671,7 +667,7 @@
                                             </div>
                                             <div class="courses_info">
                                                 <span>Adobe XD</span>
-                                                <h3><a href="#">UI/UX design with Adobe XD with Anderson</a></h3>
+                                                <h3><a href="course_details.html">UI/UX design with Adobe XD with Anderson</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
                                                         <i class="flaticon-mark-as-favorite-star"></i>
@@ -696,7 +692,7 @@
                                             </div>
                                             <div class="courses_info">
                                                 <span>Wordpress</span>
-                                                <h3><a href="#">Wordpress theme development <br>
+                                                <h3><a href="course_details.html">Wordpress theme development <br>
                                                         from scratch</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -722,7 +718,7 @@
                                             </div>
                                             <div class="courses_info">
                                                 <span>Photoshop</span>
-                                                <h3><a href="#">Mobile App design step by step <br>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
                                                         from beginner</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -746,7 +742,7 @@
                                             </div>
                                             <div class="courses_info">
                                                 <span>UI/UX</span>
-                                                <h3><a href="#">How to complete user research <br>
+                                                <h3><a href="course_details.html">How to complete user research <br>
                                                         and make work flow</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -771,8 +767,8 @@
                                                 </a>
                                             </div>
                                             <div class="courses_info">
-                                                <span>Wordpress</span>
-                                                <h3><a href="#">Commitment to dedicated <br>
+                                                <span>Soft Skills</span>
+                                                <h3><a href="course_details.html">Commitment to dedicated <br>
                                                         Support</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -791,7 +787,7 @@
                                     </div>
                                     <div class="col-xl-12">
                                         <div class="more_courses text-center">
-                                            <a href="#" class="boxed_btn_rev">More Courses</a>
+                                            <a href="courses.html" class="boxed_btn_rev">More Courses</a>
                                         </div>
                                     </div>
                                 </div>
@@ -806,8 +802,8 @@
                                                 </a>
                                             </div>
                                             <div class="courses_info">
-                                                <span>Photoshop</span>
-                                                <h3><a href="#">Mobile App design step by step <br>
+                                                <span>App Development</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
                                                         from beginner</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -833,7 +829,7 @@
                                             </div>
                                             <div class="courses_info">
                                                 <span>Adobe XD</span>
-                                                <h3><a href="#">UI/UX design with Adobe XD with Anderson</a></h3>
+                                                <h3><a href="course_details.html">UI/UX design with Adobe XD with Anderson</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
                                                         <i class="flaticon-mark-as-favorite-star"></i>
@@ -858,7 +854,7 @@
                                             </div>
                                             <div class="courses_info">
                                                 <span>Wordpress</span>
-                                                <h3><a href="#">Wordpress theme development <br>
+                                                <h3><a href="course_details.html">Wordpress theme development <br>
                                                         from scratch</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -884,7 +880,7 @@
                                             </div>
                                             <div class="courses_info">
                                                 <span>Photoshop</span>
-                                                <h3><a href="#">Mobile App design step by step <br>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
                                                         from beginner</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -907,8 +903,8 @@
                                                 <img src="img/courses/5.png" alt="">
                                             </div>
                                             <div class="courses_info">
-                                                <span>UI/UX</span>
-                                                <h3><a href="#">How to complete user research <br>
+                                                <span>HR</span>
+                                                <h3><a href="course_details.html">How to complete user research <br>
                                                         and make work flow</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -933,8 +929,8 @@
                                                 </a>
                                             </div>
                                             <div class="courses_info">
-                                                <span>Wordpress</span>
-                                                <h3><a href="#">Commitment to dedicated <br>
+                                                <span>Soft Skills</span>
+                                                <h3><a href="course_details.html">Commitment to dedicated <br>
                                                         Support</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -953,7 +949,7 @@
                                     </div>
                                     <div class="col-xl-12">
                                         <div class="more_courses text-center">
-                                            <a href="#" class="boxed_btn_rev">More Courses</a>
+                                            <a href="courses.html" class="boxed_btn_rev">More Courses</a>
                                         </div>
                                     </div>
                                 </div>
@@ -968,8 +964,8 @@
                                                 </a>
                                             </div>
                                             <div class="courses_info">
-                                                <span>Photoshop</span>
-                                                <h3><a href="#">Mobile App design step by step <br>
+                                                <span>App Development</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
                                                         from beginner</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -995,7 +991,7 @@
                                             </div>
                                             <div class="courses_info">
                                                 <span>Adobe XD</span>
-                                                <h3><a href="#">UI/UX design with Adobe XD with Anderson</a></h3>
+                                                <h3><a href="course_details.html">UI/UX design with Adobe XD with Anderson</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
                                                         <i class="flaticon-mark-as-favorite-star"></i>
@@ -1020,7 +1016,7 @@
                                             </div>
                                             <div class="courses_info">
                                                 <span>Wordpress</span>
-                                                <h3><a href="#">Wordpress theme development <br>
+                                                <h3><a href="course_details.html">Wordpress theme development <br>
                                                         from scratch</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -1046,7 +1042,7 @@
                                             </div>
                                             <div class="courses_info">
                                                 <span>Photoshop</span>
-                                                <h3><a href="#">Mobile App design step by step <br>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
                                                         from beginner</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -1069,8 +1065,8 @@
                                                 <img src="img/courses/5.png" alt="">
                                             </div>
                                             <div class="courses_info">
-                                                <span>UI/UX</span>
-                                                <h3><a href="#">How to complete user research <br>
+                                                <span>HR</span>
+                                                <h3><a href="course_details.html">How to complete user research <br>
                                                         and make work flow</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -1095,8 +1091,8 @@
                                                 </a>
                                             </div>
                                             <div class="courses_info">
-                                                <span>Wordpress</span>
-                                                <h3><a href="#">Commitment to dedicated <br>
+                                                <span>Soft Skills</span>
+                                                <h3><a href="course_details.html">Commitment to dedicated <br>
                                                         Support</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -1115,7 +1111,7 @@
                                     </div>
                                     <div class="col-xl-12">
                                         <div class="more_courses text-center">
-                                            <a href="#" class="boxed_btn_rev">More Courses</a>
+                                            <a href="courses.html" class="boxed_btn_rev">More Courses</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1130,8 +1126,8 @@
                                                 </a>
                                             </div>
                                             <div class="courses_info">
-                                                <span>Photoshop</span>
-                                                <h3><a href="#">Mobile App design step by step <br>
+                                                <span>App Development</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
                                                         from beginner</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -1157,7 +1153,7 @@
                                             </div>
                                             <div class="courses_info">
                                                 <span>Adobe XD</span>
-                                                <h3><a href="#">UI/UX design with Adobe XD with Anderson</a></h3>
+                                                <h3><a href="course_details.html">UI/UX design with Adobe XD with Anderson</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
                                                         <i class="flaticon-mark-as-favorite-star"></i>
@@ -1182,7 +1178,7 @@
                                             </div>
                                             <div class="courses_info">
                                                 <span>Wordpress</span>
-                                                <h3><a href="#">Wordpress theme development <br>
+                                                <h3><a href="course_details.html">Wordpress theme development <br>
                                                         from scratch</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -1208,7 +1204,7 @@
                                             </div>
                                             <div class="courses_info">
                                                 <span>Photoshop</span>
-                                                <h3><a href="#">Mobile App design step by step <br>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
                                                         from beginner</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -1231,8 +1227,8 @@
                                                 <img src="img/courses/5.png" alt="">
                                             </div>
                                             <div class="courses_info">
-                                                <span>UI/UX</span>
-                                                <h3><a href="#">How to complete user research <br>
+                                                <span>HR</span>
+                                                <h3><a href="course_details.html">How to complete user research <br>
                                                         and make work flow</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -1257,8 +1253,8 @@
                                                 </a>
                                             </div>
                                             <div class="courses_info">
-                                                <span>Wordpress</span>
-                                                <h3><a href="#">Commitment to dedicated <br>
+                                                <span>Soft Skills</span>
+                                                <h3><a href="course_details.html">Commitment to dedicated <br>
                                                         Support</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -1277,7 +1273,7 @@
                                     </div>
                                     <div class="col-xl-12">
                                         <div class="more_courses text-center">
-                                            <a href="#" class="boxed_btn_rev">More Courses</a>
+                                            <a href="courses.html" class="boxed_btn_rev">More Courses</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1292,8 +1288,8 @@
                                                 </a>
                                             </div>
                                             <div class="courses_info">
-                                                <span>Photoshop</span>
-                                                <h3><a href="#">Mobile App design step by step <br>
+                                                <span>App Development</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
                                                         from beginner</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -1319,7 +1315,7 @@
                                             </div>
                                             <div class="courses_info">
                                                 <span>Adobe XD</span>
-                                                <h3><a href="#">UI/UX design with Adobe XD with Anderson</a></h3>
+                                                <h3><a href="course_details.html">UI/UX design with Adobe XD with Anderson</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
                                                         <i class="flaticon-mark-as-favorite-star"></i>
@@ -1344,7 +1340,7 @@
                                             </div>
                                             <div class="courses_info">
                                                 <span>Wordpress</span>
-                                                <h3><a href="#">Wordpress theme development <br>
+                                                <h3><a href="course_details.html">Wordpress theme development <br>
                                                         from scratch</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -1370,7 +1366,7 @@
                                             </div>
                                             <div class="courses_info">
                                                 <span>Photoshop</span>
-                                                <h3><a href="#">Mobile App design step by step <br>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
                                                         from beginner</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -1393,8 +1389,8 @@
                                                 <img src="img/courses/5.png" alt="">
                                             </div>
                                             <div class="courses_info">
-                                                <span>UI/UX</span>
-                                                <h3><a href="#">How to complete user research <br>
+                                                <span>HR</span>
+                                                <h3><a href="course_details.html">How to complete user research <br>
                                                         and make work flow</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -1419,8 +1415,8 @@
                                                 </a>
                                             </div>
                                             <div class="courses_info">
-                                                <span>Wordpress</span>
-                                                <h3><a href="#">Commitment to dedicated <br>
+                                                <span>Soft Skills</span>
+                                                <h3><a href="course_details.html">Commitment to dedicated <br>
                                                         Support</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -1439,7 +1435,7 @@
                                     </div>
                                     <div class="col-xl-12">
                                         <div class="more_courses text-center">
-                                            <a href="#" class="boxed_btn_rev">More Courses</a>
+                                            <a href="courses.html" class="boxed_btn_rev">More Courses</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1454,8 +1450,8 @@
                                                 </a>
                                             </div>
                                             <div class="courses_info">
-                                                <span>Photoshop</span>
-                                                <h3><a href="#">Mobile App design step by step <br>
+                                                <span>App Development</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
                                                         from beginner</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -1481,7 +1477,7 @@
                                             </div>
                                             <div class="courses_info">
                                                 <span>Adobe XD</span>
-                                                <h3><a href="#">UI/UX design with Adobe XD with Anderson</a></h3>
+                                                <h3><a href="course_details.html">UI/UX design with Adobe XD with Anderson</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
                                                         <i class="flaticon-mark-as-favorite-star"></i>
@@ -1506,7 +1502,7 @@
                                             </div>
                                             <div class="courses_info">
                                                 <span>Wordpress</span>
-                                                <h3><a href="#">Wordpress theme development <br>
+                                                <h3><a href="course_details.html">Wordpress theme development <br>
                                                         from scratch</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -1532,7 +1528,7 @@
                                             </div>
                                             <div class="courses_info">
                                                 <span>Photoshop</span>
-                                                <h3><a href="#">Mobile App design step by step <br>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
                                                         from beginner</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -1555,8 +1551,8 @@
                                                 <img src="img/courses/5.png" alt="">
                                             </div>
                                             <div class="courses_info">
-                                                <span>UI/UX</span>
-                                                <h3><a href="#">How to complete user research <br>
+                                                <span>HR</span>
+                                                <h3><a href="course_details.html">How to complete user research <br>
                                                         and make work flow</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -1581,8 +1577,8 @@
                                                 </a>
                                             </div>
                                             <div class="courses_info">
-                                                <span>Wordpress</span>
-                                                <h3><a href="#">Commitment to dedicated <br>
+                                                <span>Soft Skills</span>
+                                                <h3><a href="course_details.html">Commitment to dedicated <br>
                                                         Support</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
@@ -1601,7 +1597,7 @@
                                     </div>
                                     <div class="col-xl-12">
                                         <div class="more_courses text-center">
-                                            <a href="#" class="boxed_btn_rev">More Courses</a>
+                                            <a href="courses.html" class="boxed_btn_rev">More Courses</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1751,71 +1747,21 @@
     <!-- subscribe_newsletter_end -->
 
 <!-- our_latest_blog_start -->
-    <div class="our_latest_blog">
+    <div class="our_latest_blog" id="workwithus">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section_title text-center mb-100">
-                        <h3>Our Latest Blog</h3>
+                        <h3>Want to work with us <i class='bx bx-question-mark'></i></h3>
                     </div>
+                </div>
+                <div class="live_chat_btn">
+                    <a class="boxed_btn_orange instructorbtn" href="contact.html #contact">
+                        <span>Become an Instructor </span>
+                    </a>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xl-4 col-md-4">
-                    <div class="single_latest_blog">
-                        <div class="thumb">
-                            <img src="img/latest_blog/1.png" alt="">
-                        </div>
-                        <div class="content_blog">
-                            <div class="date">
-                                <p>12 July, 2020 in <a href="#">Design tips</a></p>
-                            </div>
-                            <div class="blog_meta">
-                                <h3><a href="#">Commitment to dedicated Support</a></h3>
-                            </div>
-                            <p class="blog_text">
-                                Firmament morning sixth subdue darkness creeping gathered divide.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-4">
-                    <div class="single_latest_blog">
-                        <div class="thumb">
-                            <img src="img/latest_blog/2.png" alt="">
-                        </div>
-                        <div class="content_blog">
-                            <div class="date">
-                                <p>12 July, 2020 in <a href="#">Design tips</a></p>
-                            </div>
-                            <div class="blog_meta">
-                                <h3><a href="#">Commitment to dedicated Support</a></h3>
-                            </div>
-                            <p class="blog_text">
-                                Firmament morning sixth subdue darkness creeping gathered divide.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-4">
-                    <div class="single_latest_blog">
-                        <div class="thumb">
-                            <img src="img/latest_blog/3.png" alt="">
-                        </div>
-                        <div class="content_blog">
-                            <div class="date">
-                                <p>12 July, 2020 in <a href="#">Design tips</a></p>
-                            </div>
-                            <div class="blog_meta">
-                                <h3><a href="#">Commitment to dedicated Support</a></h3>
-                            </div>
-                            <p class="blog_text">
-                                Firmament morning sixth subdue darkness creeping gathered divide.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
         </div>
     </div>
     <!-- our_latest_blog_end -->
@@ -1868,11 +1814,11 @@
                                 Courses
                             </h3>
                             <ul>
-                                <li><a href="#">Wordpress</a></li>
-                                <li><a href="#"> Photoshop</a></li>
-                                <li><a href="#">Illustrator</a></li>
-                                <li><a href="#">Adobe XD</a></li>
-                                <li><a href="#">UI/UX</a></li>
+                                <li><a href="#Web-tab1">Wordpress</a></li>
+                                <li><a href="#profile-tab"> Photoshop</a></li>
+                                <li><a href="#Adobe-XD-tab9">Illustrator</a></li>
+                                <li><a href="#Web-tab11">Adobe XD</a></li>
+                                <li><a href="#contact-tab">UI/UX</a></li>
                             </ul>
 
                         </div>
@@ -1884,10 +1830,10 @@
                             </h3>
                             <ul>
                                 <li><a href="#">Free Adobe XD</a></li>
-                                <li><a href="#">Tutorials</a></li>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#"> Work with Us</a></li>
-                                <li><a href="#"> Contact</a></li>
+                                <li><a href="course_details.html">Tutorials</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="#workwithus"> Work with Us</a></li>
+                                <li><a href="contact.html"> Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -1899,9 +1845,9 @@
                             <p>
                                 SCO 31 , Sector 86
                                 Mohali - 160062
-                                India <br>
-                                +91-6280848783 <br>
-                                co@kohli.tel
+                                India <br><br>
+                                <a href="tel:+91-6280848783" style="color: white;">+91-6280848783</a> <br>
+                                <a href="mailto:co@kohli.tel" style="color: white;">co@kohli.tel</a>
                             </p>
                         </div>
                     </div>
@@ -1915,8 +1861,10 @@
                     <div class="col-xl-12">
                         <p class="copy_right text-center">
                             
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#" target="_blank">Mohammed Hirani</a>
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script><span class="ke">  Kohli Education </span>. All rights reserved | <span class="mwl">#MadeWithLove</span><span class="ks">&hearts; <a href="http://www.kohli.studio/">Kohli.Studio</a></span>
 
+                            <a href="#" class="back-to-top"><i class='bx bxs-chevron-up-square' style="color:#fdae5c;font-size: 48px;"></i></a>
+                                                    
                         </p>
                     </div>
                 </div>
